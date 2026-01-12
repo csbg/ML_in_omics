@@ -59,7 +59,7 @@ for i in data.obs["cell_type"].unique():
 Look at the data. What are the dimensions? Look at the first few expression values by extracting the first 10 rows and columns of the matrix and showing using the method `todense()`. What types of numbers are these?
 
 Next, normalize the data. At each step, again look at the first few expression values to see how they changed.
-1. Calculate the sum of reads per cell and devide the data by this sum: `data.X /= data.X.sum(axis=1)`
+1. Calculate the sum of reads per cell and devide the data by this sum: `data.X /= data.X.sum(axis=1)`. Note: If you have an error about CSR and CSC matrices, use `data.X = (data.X / data.X.sum(axis=1)).tocsr()`. This converts the sparse matrix format from COO to CSR, which may be required by anndata.
 2. Multiply each value by 1 million (`10e6`).
 3. Use `log1p` from `numpy` to log normalize the data.
 4. Convert the sparse matrix to the Compressed Sparse Row format using the method `tocsr()`.
