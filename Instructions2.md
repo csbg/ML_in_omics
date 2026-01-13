@@ -88,7 +88,7 @@ model = SimpleModel(input_dim=???)
 
 Define loss calculation function (`criterion`).
 ```python
-criterion = nn.BCEWithLogitsLoss()
+criterion = nn.BCELoss()
 ```
 
 Define the optimizer (that performs the gradient descent). The arguments are (1) the model parameters (weights) to optimize and (2) the learning rate (lr).
