@@ -149,8 +149,8 @@ Modify the simple model above to include:
     1. Linear layer 1 (from input nodes to 50 hidden nodes)
     2. Sigmoid layer 1 (output of layer 1 and input of layer 2)
 2. Layer 2:
-    3. Linear layer 2 (from 50 hidden nodes to 1 output node)
-    4. Sigmoid layer 2 (output)
+    1. Linear layer 2 (from 50 hidden nodes to 1 output node)
+    2. Sigmoid layer 2 (output)
 
 Train the model as done above and assess accuracy after the same number of epochs. 
 
