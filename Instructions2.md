@@ -66,7 +66,7 @@ Below is a bare-bones pytorch model.
 
 Your tasks:
 1. Replace the `???`
-2. Add as sigmoid transformation (`nn.Sigmoid()`) that will be executed after the linear transformation. Note: This needs to be in both methods.
+2. Add as sigmoid transformation (`nn.Sigmoid()`) that will be executed after the linear transformation. Note: Add this to both methods (`__init__` and `forward`) similar to the `linear1` layer..
 
 ```python
 class SimpleModel(nn.Module):
