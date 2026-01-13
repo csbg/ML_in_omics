@@ -20,7 +20,7 @@ os.chdir("TODO")
 
 ## Load and prepare data
 
-Load the data and normalize it the same way done on day 1.
+Load the data, normalize and filter it the same way done on day 1.
 
 Next, we will subset the data to Astrocytes and Glioblasts.
 
