@@ -20,13 +20,13 @@ os.chdir("TODO")
 
 ## Load and prepare data
 
-Load the data, normalize and filter it the same way done on day 1.
-
-Next, we will subset the data to Astrocytes and Glioblasts.
+First, load the data and then subset them to Astrocytes and Glioblasts in order to limit the dataset to 2 classes.
 
 ```python
 data = data[data.obs.author_cell_type.apply(lambda x: x in ["Astrocytes", "Glioblasts"])]
 ```
+
+Next, filter (remove genes with few reads) and normalize the data (logCPM) the same way done on day 1.
 
 ## Set up pytorch tensors
 
