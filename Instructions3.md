@@ -20,7 +20,7 @@ Now set up a neural network as in lesson 2. We will remove the the final sigmoid
 ## Model training
 
 Train the model as seen in lesson 2 with the following modifications:
-1. Use `nn.CrossEntropyLoss()` instead of `nn.BCEWithLogitsLoss()`. This will do the softmax and calculate the loss.
+1. Use `nn.CrossEntropyLoss()` instead of `nn.BCELoss()`. This will do the softmax and calculate the loss.
 2. Use `lr=0.1` in the optimizer.
 3. When training over many epochs, store your loss in a list. Initialize the list before starting `loss_list = []` and then add to it in the training loop using `loss_list.append(???)`.
 4. Train for 50 epochs.
