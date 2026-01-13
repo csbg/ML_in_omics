@@ -194,4 +194,4 @@ for the following objects:
 At which step were the weights of the model changed in the simple model?
 
 ## Exercise 2.3
-Was the learning process successful? How did the loss and the accuracy?
+Was the learning process successful? How did the loss and the accuracy change?
