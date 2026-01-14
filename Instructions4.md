@@ -30,8 +30,9 @@ Calculate the accuracy of the better model on the test data. This is your final 
 
 ## Check effect of regularization
 Let's look at the effect of the l2 regularization on the weights.
-- First, for each model, get the attribute `coef_` (weights) and make a histogram of the values for one class.
-- Second, take the absolute value of the coefficients (`np.abs()`), and calculate the mean (method: `mean()`) for each class. Then make a scatterplot, comparing these averages between the two models.
+1. Train each model on all data used in the cross-validation (train and validation data).
+2. For each model, get the attribute `coef_` (weights) and make a histogram of the values for one class.
+3. Take the absolute value of the coefficients (`np.abs()`), and calculate the mean (method: `mean()`) for each class. Then make a scatterplot, comparing these averages between the two models.
 
 
 # EXERCISES
