@@ -14,7 +14,7 @@ So, here we will optimize one hyperparameter, which is the regularization streng
 
 ## Cross validation (CV)
 Do 5-fold cross validation.
-1. Split the data (`X` and `Y`) into test and CV data using `train_test_split` as in lesson 1, keeping 25% for testing.
+1. Split the data (`X` and `Y`) into test (`X_test` and `Y_test`) and CV data (`X_cv` and `Y_cv`) using `train_test_split` as in lesson 1, keeping 25% for testing.
 2. Define a variable `model_choice` as 0. This will help us decide between the two models.
 3. Run a loop with 5 iterations. Within the loop:
     1. Split the CV data into validation and train data using `train_test_split`, keeping 30% for validation (~25% of the original data).
