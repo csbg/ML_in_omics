@@ -15,7 +15,10 @@ For the labels, we will create a dummy encoding of multiple classes. This will p
 
 ## Define ML model
 
-Now set up a neural network as in lesson 2. We will remove the the final sigmoid layer and end with a final linear layer. To obtain class probabilities, we will calculate softmax, but this is done by the loss function (see below) and does not have to be done in the model.
+Now set up a neural network as in lesson 2 but with the following modifications:
+1. We will remove the the final sigmoid layer and end with a final linear layer.
+2. We will use the same number of output nodes as we have classes (one output per class).
+3. To obtain class probabilities, we will calculate softmax, but this is done by the loss function (see below) and does not have to be done in the model.
 
 ## Model training
 
