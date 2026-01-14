@@ -46,7 +46,7 @@ for the following objects:
 - the test inputs `X_test`
 - the training labels `Y_cv`
 - the test labels `Y_test`
-- the model coefficients of model 1
+- the model coefficients of models 1 and 2
 
 ## Exercise 1.2
 Which model performed better? In how many folds was it better?
