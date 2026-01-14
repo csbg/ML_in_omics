@@ -31,7 +31,7 @@ Train the model as seen in lesson 2 with the following modifications:
 
 ## Modifying the learning rate.
 
-Now retrain the model from the start, but reduce the learning rate to `lr=0.01`, but store the lost in a list with a different name. Make a plot of both lists (you just need to call scatterplot twice). Compare the curves.
+Now retrain the model from the start, but reduce the learning rate to `lr=0.01`, but store the loss in a list with a different name. Make a plot of both lists (you just need to call scatterplot twice). Compare the curves.
 
 # EXERCISES
 ## Exercise 3.1
