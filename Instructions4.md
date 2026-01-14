@@ -18,7 +18,7 @@ Do 5-fold cross validation.
 2. Define a variable `model_choice` as 0. This will help us decide between the two models.
 3. Run a loop with 5 iterations. Within the loop:
     1. Split the CV data into validation and train data using `train_test_split`, keeping 30% for validation (~25% of the original data).
-    2. Fit both models on the training data.
+    2. Fit both models on the training data. Note: You do not have to re-define the model each time. Calling `fit()` will overwrite the previously trained weights in `sklearn` models (unless you set `warm_startbool = True`)
     3. Predict class on the validation data.
     4. Calculate accuracy on validation data for both models (Note: Do NOT use test data here!).
     5. Print the accuracy of both models.
