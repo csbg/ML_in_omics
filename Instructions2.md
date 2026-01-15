@@ -179,11 +179,14 @@ Modify the code above and train the model as done above and assess accuracy afte
 
 # EXERCISES
 ## Exercise 2.1
-Describe:
+Describe
+
 1. the dimensions (method `shape()` or function `len()`)
 2. types of data or object (function `type()`)
 3. range of values
+
 for the following objects:
+
 - the anndata object `data` after filtering genes and cells
 - the input `X`
 - the true output `Y`

@@ -39,6 +39,7 @@ Let's look at the effect of the l2 regularization on the weights.
 # EXERCISES
 ## Exercise 1.1
 Describe
+
 1. the dimensions (method `shape()` or function `len()`)
 2. types of data or object (function `type()`)
 3. range of values

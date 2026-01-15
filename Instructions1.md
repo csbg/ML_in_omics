@@ -141,11 +141,14 @@ Now plot the ROC curve for each cell type and calculate the AUC.
 
 # EXERCISES
 ## Exercise 1.1
-Describe:
+Describe
+
 1. the dimensions (method `shape()` or function `len()`)
 2. types of data or object (function `type()`)
 3. range of values
+
 for the following objects:
+
 - the anndata object `data` (including attributes `X`, `obs`, and `var`) after filtering
 - the anndata object `data` before filtering genes (cells will remain unchanged)
 - the input `X`

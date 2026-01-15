@@ -47,11 +47,14 @@ Now we will plot the expression data of the most important feature:
 # EXERCISES
 
 ## Exercise 1.1
-Describe:
+Describe
+
 1. the dimensions (method `shape()` or function `len()`)
 2. types of data or object (function `type()`)
 3. range of values
+
 for the following objects:
+
 - the training inputs `X_train`
 - the test inputs `X_test`
 - the training labels `Y_train`

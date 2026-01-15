@@ -35,11 +35,14 @@ Now retrain the model from the start, but reduce the learning rate to `lr=0.01`,
 
 # EXERCISES
 ## Exercise 3.1
-Describe:
+Describe
+
 1. the dimensions (method `shape()` or function `len()`)
 2. types of data or object (function `type()`)
 3. range of values
+
 for the following objects:
+
 - the anndata object `data` after filtering genes
 - the input `X`
 - the true output `Y`
