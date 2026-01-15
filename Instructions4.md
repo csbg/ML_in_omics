@@ -10,7 +10,8 @@ Prepare `X` and `Y` the same way as in lesson 1.
 Define two models `model1` and `model2`. Both should be logistic regression models trained the same way as in lesson 1 with the following modifications:
 1. `model1` uses an l2 penalty and `C=1000.0` (little regularization)
 2. `model2` uses an l2 penalty and `C=1` (more regularization)
-So, here we will optimize one hyperparameter, which is the regularization strength (`C`), evaluating only 2 values / settings. 
+
+We will thus optimize one hyperparameter, which is the regularization strength (`C`), evaluating only 2 values / settings. 
 
 ## Cross validation (CV)
 Do 5-fold cross validation.
