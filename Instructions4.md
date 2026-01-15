@@ -25,15 +25,15 @@ Do 5-fold cross validation.
     5. Print the accuracy of both models.
     6. If accuracy of model 1 is bigger than accuracy of model 2, then add 1 to `model_choice`. Oherwise, subtract 1.
 4. Once the loop has finished, you know which model did better by looking at `model_choice`.
+5. For the next steps, train both model on all data used in the cross-validation (train and validation data).
 
 ## Evaluate
 Calculate the accuracy of the better model on the test data. This is your final prediction accuracy on unseen data.
 
 ## Check effect of regularization
 Let's look at the effect of the l2 regularization on the weights.
-1. Train each model on all data used in the cross-validation (train and validation data).
-2. For each model, get the attribute `coef_` (weights) and make a histogram of the values for one class.
-3. Take the absolute value of the coefficients (`np.abs()`), and calculate the mean (method: `mean()`) for each class. Then make a scatterplot, comparing these averages between the two models.
+1. For each model, get the attribute `coef_` (weights) and make a histogram of the values for one class.
+2. Take the absolute value of the coefficients (`np.abs()`), and calculate the mean (method: `mean()`) for each class. Then make a scatterplot, comparing these averages between the two models.
 
 
 # EXERCISES
