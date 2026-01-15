@@ -38,11 +38,13 @@ Let's look at the effect of the l2 regularization on the weights.
 
 # EXERCISES
 ## Exercise 1.1
-Describe:
+Describe
 1. the dimensions (method `shape()` or function `len()`)
 2. types of data or object (function `type()`)
 3. range of values
+
 for the following objects:
+
 - the training inputs `X_cv`
 - the test inputs `X_test`
 - the training labels `Y_cv`
