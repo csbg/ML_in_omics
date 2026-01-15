@@ -68,7 +68,7 @@ To filter the data, we will remove all genes that are not expressed in at least 
 1. Use `data.shape` to get the number of cells.
 2. Sum up the reads for each gene.
 3. Test if the sum from #2 is greater than 10% of the number of cells from #1.
-4. Filter the dataset to only those cells where this is the case.
+4. Filter the dataset to only those genes where this is the case.
 
 ## Train ML model
 
