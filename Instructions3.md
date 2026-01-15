@@ -8,7 +8,7 @@ Load packages and prepare data as in lesson 2. Do not remove cells, we will here
 Prepare the input data `X` the same way as in lesson 2 (normalize, filter, scale).
 
 For the labels, we will create a dummy encoding of multiple classes. This will produce a matrix (tensor) that of `cells` x `cell types` of `[0;1]`, where each cell has a 1 in only one cell type and 0 everywhere else. To do so, follow these steps:
-1. Use the function `get_dummies()` from `pandas` on the labels, creating a data frame of boolean statements.
+1. Use the function `get_dummies()` from `pandas` on the labels (`author_cell_type`), creating a data frame of boolean statements.
 2. Add `0` to this data frame to convert this to `[0;1]` encoding.
 3. Convert this data frame to numpy using the method `to_numpy()`.
 4. Convert the numpy matrix to a tensor `Y`.
