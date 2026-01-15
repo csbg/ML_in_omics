@@ -4,7 +4,7 @@
 Load packages and prepare data as in lesson 1.
 
 ## Setup data and tensors
-Prepare `X` and `Y` the same way as in lesson 1.
+Prepare `X` and `Y` (label: `author_cell_type`) the same way as in lesson 1.
 
 ## Models / hyperparameters
 Define two models `model1` and `model2`. Both should be logistic regression models trained the same way as in lesson 1 with the following modifications:
