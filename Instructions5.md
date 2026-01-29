@@ -46,7 +46,7 @@ Now we will plot the expression data of the most important feature:
 
 # EXERCISES
 
-## Exercise 1.1
+## Exercise 5.1
 Describe
 
 1. the dimensions (method `shape()` or function `len()`)
@@ -62,11 +62,11 @@ for the following objects:
 - all objects within the dict returned by `feature_importance`
 - the expression data for our top gene `data_f1`
 
-## Exercise 1.2
+## Exercise 5.2
 How many genes have a high importance?
 
-## Exercise 1.3
+## Exercise 5.3
 Did the most important genes make sense biologically?
 
-## Exercise 1.4
+## Exercise 5.4
 Did the expression data of the top gene explain why this was picked by the algorithm?
