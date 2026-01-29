@@ -37,7 +37,7 @@ Let's look at the effect of the l2 regularization on the weights.
 
 
 # EXERCISES
-## Exercise 1.1
+## Exercise 4.1
 Describe
 
 1. the dimensions (method `shape()` or function `len()`)
@@ -52,11 +52,11 @@ for the following objects:
 - the test labels `Y_test`
 - the model coefficients of models 1 and 2
 
-## Exercise 1.2
+## Exercise 4.2
 Which model performed better? In how many folds was it better?
 
-## Exercise 1.3
+## Exercise 4.3
 Did you see a difference in accuracy during hyperparameter optimization compared to testing?
 
-## Exercise 1.4
+## Exercise 4.4
 What did the regularization do to the coefficients? How did it change the values?
